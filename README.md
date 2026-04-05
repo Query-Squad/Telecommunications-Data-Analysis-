@@ -26,6 +26,7 @@ This project is a collaborative effort by:
 * **Eman Abdelnassir** - Data Analyst & SQL Developer
 * **Fatima** - Collaborator
 * **Marina** - Collaborator
-* **Athanasius** - Collaborator 
+* **Athanasius** - Collaborator
+* ** Menna *** -Collaborator
 ---
 *Developed as part of our commitment to excellence in Business Information Systems (BIS).*
