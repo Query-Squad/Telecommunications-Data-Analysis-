@@ -27,6 +27,6 @@ This project is a collaborative effort by:
 * **Fatima** - Collaborator
 * **Marina** - Collaborator
 * **Athanasius** - Collaborator
-* ** Menna *** -Collaborator
+* ** Menna ** -Collaborator
 ---
 *Developed as part of our commitment to excellence in Business Information Systems (BIS).*
