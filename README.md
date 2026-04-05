@@ -29,4 +29,4 @@ This project is a collaborative effort by:
 * **Athanasius** - Collaborator
 * **Menna** -Collaborator
 ---
-*Developed as part of our commitment to excellence in Business Information Systems (BIS).*
+
