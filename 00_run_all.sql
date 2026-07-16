@@ -1,0 +1,22 @@
+-- ============================================
+-- Egypt Telecom Analysis — Master Run Script
+-- ============================================
+-- Run these files IN THIS ORDER (sqlcmd/Azure Data Studio "Include" or run manually).
+-- Order matters: GovernorateSummary must be seeded BEFORE NetworkTiles
+-- because NetworkTiles.governorate_en has a FOREIGN KEY reference to it.
+--
+-- 1) 01_schema.sql                    -- creates the database + 3 tables
+-- 2) 02_seed_customers.sql            -- 5,500 customer rows (no FK dependency)
+-- 3) 03_seed_governorate_summary.sql  -- 27 governorates (must run before step 4)
+-- 4) 04_seed_network_tiles.sql        -- 965 network measurement tiles (FK -> GovernorateSummary)
+-- 5) 05_analytical_queries.sql        -- verification counts + all analytical queries
+--
+-- Using sqlcmd:
+--   sqlcmd -S <server> -i 01_schema.sql
+--   sqlcmd -S <server> -i 02_seed_customers.sql
+--   sqlcmd -S <server> -i 03_seed_governorate_summary.sql
+--   sqlcmd -S <server> -i 04_seed_network_tiles.sql
+--   sqlcmd -S <server> -i 05_analytical_queries.sql
+--
+-- Or in Azure Data Studio / SSMS: open each file in order and click "Run".
+-- ============================================
