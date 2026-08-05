@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="file_00000000466481f49d546426c049f864.png" width="100%">
+</p>
 # 📡 Egypt Telecom Customer Analytics & Churn Analysis — Full Project Details
 
 **Capstone Project — Digital Egypt Pioneers Initiative (DEPI), Batch 4**
